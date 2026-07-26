@@ -29,7 +29,8 @@ def get_toulouse_agendas():
     while True:
         params = {
             "search": "Toulouse",
-            "size": 100
+            "size": 100,
+            "sort": "createdAt.desc"
         }
 
         # À partir de la 2e requête, on ajoute le curseur "after"
@@ -52,7 +53,8 @@ def get_toulouse_agendas():
 
         print(
             f"{len(agendas)} agendas récupérés sur cette page "
-            f"- total actuel : {len(all_agendas)}"
+            f"- total actuel : {len(all_agendas)} "
+            f"- status={response.status_code} "    
         )
 
         # Curseur permettant de récupérer la page suivante
