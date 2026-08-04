@@ -648,10 +648,42 @@ def clean_events(df: pd.DataFrame) -> pd.DataFrame:
         "location_text",
     ]
 
+    # Suppression des colonnes constantes (une seule valeur non vide)
+    constant_columns = []
+
+    for col in work.columns:
+        non_null_values = work[col].dropna()
+
+        if non_null_values.empty:
+            constant_columns.append(col)
+            continue
+
+        comparable_values = non_null_values.map(_serialise_for_comparison)
+
+        if comparable_values.nunique() <= 1:
+            constant_columns.append(col)
+
+    # On conserve toujours les colonnes importantes
+    protected_columns = {
+        "uid",
+        "title",
+        "description",
+        "longDescription",
+        "keywords",
+    }
+
+    constant_columns = [
+        col
+        for col in constant_columns
+        if col not in protected_columns
+    ]
+
+    work.drop(columns=constant_columns, inplace=True)
+
     final_columns = [
-        column
-        for column in final_columns
-        if column in work.columns
+        col
+        for col in final_columns
+        if col in work.columns
     ]
 
     return work.loc[:, final_columns].reset_index(drop=True)
