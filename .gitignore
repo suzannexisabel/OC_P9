@@ -24,5 +24,12 @@ env/
 *.faiss
 *.index
 
+# Generated data
+*.parquet
+*.npy
+
 # Logs
 *.log
+
+# Notebook test
+test_clean.ipynb
