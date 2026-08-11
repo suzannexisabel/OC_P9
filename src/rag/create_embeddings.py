@@ -34,14 +34,19 @@ def build_event_text(row: pd.Series) -> str:
         ("Description", row.get("description")),
         ("Description détaillée", row.get("longDescription")),
         ("Mots-clés", row.get("keywords")),
+
         ("Date", row.get("dateRange")),
         ("Horaires", row.get("timings")),
+
         ("Lieu", row.get("location_name")),
         ("Adresse", row.get("location_address")),
-        ("Conditions", row.get("conditions")),
+
         ("Public", row.get("age")),
         ("Accessibilité", row.get("accessibility_text")),
+        ("Conditions", row.get("conditions")),
         ("Mode de participation", row.get("mode_participation")),
+
+        ("Statut", row.get("status")),
     ]
 
     parts: list[str] = []
@@ -147,11 +152,30 @@ def create_event_chunks(
                     "chunk_id": f"{row['uid']}_{chunk_index}",
                     "chunk_index": chunk_index,
                     "chunk_text": chunk_text,
+
                     "description": row.get("description"),
                     "longDescription": row.get("longDescription"),
+                    "keywords": row.get("keywords"),
+
                     "dateRange": row.get("dateRange"),
+                    "timings": row.get("timings"),
                     "firstTiming": row.get("firstTiming"),
                     "lastTiming": row.get("lastTiming"),
+                    "nextTiming": row.get("nextTiming"),
+
+                    "image": row.get("image"),
+                    "mode_participation": row.get("mode_participation"),
+                    "status": row.get("status"),
+                    "registration": row.get("registration"),
+                    "age": row.get("age"),
+                    "accessibility_text": row.get("accessibility_text"),
+                    "conditions": row.get("conditions"),
+                    "billetterie": row.get("billetterie"),
+                    "links": row.get("links"),
+
+                    "agenda_uids": row.get("agenda_uids"),
+                    "agenda_titles": row.get("agenda_titles"),
+
                     "location_name": row.get("location_name"),
                     "location_address": row.get("location_address"),
                     "location_postal_code": row.get(
@@ -163,9 +187,6 @@ def create_event_chunks(
                     "location_longitude": row.get(
                         "location_longitude"
                     ),
-                    "image": row.get("image"),
-                    "registration": row.get("registration"),
-                    "status": row.get("status"),
                 }
             )
 
@@ -262,20 +283,37 @@ def save_embeddings(
             "uid",
             "title",
             "chunk_id",
+            "chunk_index",
             "chunk_text",
+
             "description",
             "longDescription",
+            "keywords",
+
             "dateRange",
+            "timings",
             "firstTiming",
             "lastTiming",
+            "nextTiming",
+
+            "image",
+            "mode_participation",
+            "status",
+            "registration",
+            "age",
+            "accessibility_text",
+            "conditions",
+            "billetterie",
+            "links",
+
+            "agenda_uids",
+            "agenda_titles",
+
             "location_name",
             "location_address",
             "location_postal_code",
             "location_latitude",
             "location_longitude",
-            "image",
-            "registration",
-            "status",
         ]
         if column in df.columns
     ]
