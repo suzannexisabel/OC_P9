@@ -702,11 +702,12 @@ def save_clean_events(
 
 def run_pipeline(
     output_path: str | Path = "data/processed/events_clean.parquet",
+    max_agendas: int | None = None,
 ) -> pd.DataFrame:
     """Importe, nettoie et sauvegarde les événements."""
     from src.data.openagenda_import import get_toulouse_events
 
-    events = get_toulouse_events()
+    events = get_toulouse_events(max_agendas=max_agendas)
     raw_df = pd.DataFrame(events)
     clean_df = clean_events(raw_df)
     save_clean_events(clean_df, output_path)

@@ -127,9 +127,14 @@ def get_events_from_agenda(agenda_uid):
 
 # Fonction pour recuperer les evenement Toulousains de moins de 1 ans sur open agenda
 
-def get_toulouse_events():
+def get_toulouse_events(
+        max_agendas: int | None = None
+):
     # 1. Récupération de tous les agendas liés à Toulouse
     agendas = get_toulouse_agendas()
+
+    if max_agendas is not None:
+        agendas = agendas[:max_agendas]
 
     all_events = []
 
