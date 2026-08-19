@@ -25,6 +25,8 @@ EMBEDDING_MODEL = "mistral-embed"
 LLM_MODEL = "mistral-small-latest"
 
 api_key=os.getenv("MISTRAL_KEY")
+_index = None
+_documents = None
 
 
 def test_llm():
@@ -45,7 +47,14 @@ def test_llm():
 
 
 def load_retrieval_data():
-    """Charge l'index FAISS et les documents associés."""
+    """Charge l'index FAISS et les documents une seule fois en mémoire."""
+
+    global _index, _documents
+
+    if _index is not None and _documents is not None:
+        return _index, _documents
+
+    print("Chargement de l'index FAISS et des documents...")
 
     index = faiss.read_index(str(INDEX_PATH))
     documents = pd.read_parquet(DOCUMENTS_PATH)
@@ -59,7 +68,15 @@ def load_retrieval_data():
     if index.ntotal == 0:
         raise ValueError("L'index FAISS est vide.")
 
-    return index, documents
+    _index = index
+    _documents = documents
+
+    print(
+        f"Base vectorielle chargée : "
+        f"{_index.ntotal} vecteurs."
+    )
+
+    return _index, _documents
 
 
 def retrieve_events(

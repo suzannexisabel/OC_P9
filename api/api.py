@@ -3,7 +3,20 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from src.rag.rag_chain import answer_question
+from src.rag.rag_chain import (
+    answer_question,
+    load_retrieval_data
+)
+
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Charge les ressources du RAG au démarrage de l'API."""
+
+    load_retrieval_data()
+
+    yield
 
 
 app = FastAPI(
@@ -13,6 +26,7 @@ app = FastAPI(
         "à Toulouse utilisant un système RAG."
     ),
     version="1.0.0",
+    lifespan=lifespan
 )
 
 
