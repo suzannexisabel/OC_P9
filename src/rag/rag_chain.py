@@ -3,6 +3,7 @@
 import os
 from dotenv import load_dotenv
 from pathlib import Path
+import json
 
 import faiss
 import numpy as np
@@ -232,10 +233,17 @@ def answer_question(
         }
     )
 
+    events = json.loads(
+        results.to_json(
+            orient="records",
+            date_format="iso",
+            )
+    )
+
     return {
         "question": question,
         "answer": response.content,
-        "events": results,
+        "events": events,
     }
 
 
@@ -254,13 +262,11 @@ if __name__ == "__main__":
     print(result["answer"])
 
     print("\nÉVÉNEMENTS RETROUVÉS\n")
-    print(
-        result["events"][
-            [
-                "title",
-                "dateRange",
-                "location_name",
-                "score",
-            ]
-        ].to_string(index=False)
-    )
+
+    for event in result["events"]:
+        print(
+            f"- {event.get('title')} | "
+            f"{event.get('dateRange')} | "
+            f"{event.get('location_name')} | "
+            f"score={event.get('score')}"
+        )

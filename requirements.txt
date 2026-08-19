@@ -23,3 +23,7 @@ pytest==9.1.1
 Pandas
 numpy
 pyarrow==25.0.1
+
+# Api
+fastapi==0.141.1
+uvicorn==0.52.4
