@@ -244,7 +244,7 @@ def answer_question(
 if __name__ == "__main__":
 
     result = answer_question(
-        "je cherche une activite a sensations fortes"
+        "Tu peux me proposer des activités pour enfants ?"
     )
 
     print("\nQUESTION\n")
