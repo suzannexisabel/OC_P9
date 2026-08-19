@@ -79,6 +79,17 @@ def load_retrieval_data():
     return _index, _documents
 
 
+def reload_retrieval_data():
+    """Recharge l'index FAISS et les documents depuis le disque."""
+
+    global _index, _documents
+
+    _index = None
+    _documents = None
+
+    return load_retrieval_data()
+
+
 def retrieve_events(
     question: str,
     *,

@@ -5,8 +5,11 @@ from pydantic import BaseModel, Field
 
 from src.rag.rag_chain import (
     answer_question,
-    load_retrieval_data
+    load_retrieval_data,
+    reload_retrieval_data
 )
+
+from src.rag.rebuild_vector_store import rebuild_vector_store
 
 from contextlib import asynccontextmanager
 
@@ -96,4 +99,31 @@ def ask(request: AskRequest):
         raise HTTPException(
             status_code=500,
             detail="Erreur lors de la génération de la réponse.",
+        ) from exc
+
+@app.post("/rebuild")
+def rebuild():
+    """
+    Reconstruit les données, les embeddings et l'index FAISS.
+
+    Cette opération récupère à nouveau les événements OpenAgenda,
+    nettoie les données, régénère les embeddings Mistral puis
+    reconstruit l'index FAISS.
+    """
+
+    try:
+        result = rebuild_vector_store()
+
+        reload_retrieval_data()
+
+        return {
+            "status": "success",
+            "message": "Base vectorielle reconstruite avec succès.",
+            "details": result,
+        }
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Erreur lors de la reconstruction : {exc}",
         ) from exc
