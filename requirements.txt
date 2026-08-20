@@ -21,7 +21,9 @@ python-dotenv==1.2.2
 # Tests
 pytest==9.1.1
 ragas==0.4.3
-
+# NOTE: ragas 0.4.3 nécessite actuellement un correctif local dans
+# ragas/llms/base.py :
+# from langchain_google_vertexai import ChatVertexAI
 
 # Data 
 Pandas==3.0.3
