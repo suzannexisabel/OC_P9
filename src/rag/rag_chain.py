@@ -184,6 +184,57 @@ def build_context(results: pd.DataFrame) -> str:
     return "\n\n---\n\n".join(context_parts)
 
 
+def build_context_list(results: pd.DataFrame) -> list[str]:
+    """Construit une liste de contextes, un texte par événement."""
+
+    contexts = []
+
+    for _, row in results.iterrows():
+
+        fields = [
+            ("Titre", row.get("title")),
+            ("Description", row.get("description")),
+            ("Description détaillée", row.get("longDescription")),
+            ("Mots-clés", row.get("keywords")),
+
+            ("Date", row.get("dateRange")),
+            ("Horaires", row.get("timings")),
+            ("Premier horaire", row.get("firstTiming")),
+            ("Dernier horaire", row.get("lastTiming")),
+            ("Prochain horaire", row.get("nextTiming")),
+
+            ("Lieu", row.get("location_name")),
+            ("Adresse", row.get("location_address")),
+            ("Ville", row.get("location_city")),
+            ("Code postal", row.get("location_postal_code")),
+
+            ("Public / âge", row.get("age")),
+            ("Accessibilité", row.get("accessibility_text")),
+            ("Conditions", row.get("conditions")),
+            ("Mode de participation", row.get("mode_participation")),
+
+            ("Inscription", row.get("registration")),
+            ("Billetterie", row.get("billetterie")),
+            ("Lien", row.get("links")),
+
+            ("Statut", row.get("status")),
+        ]
+
+        lines = []
+
+        for label, value in fields:
+            if pd.notna(value) and str(value).strip():
+                lines.append(
+                    f"{label} : {value}"
+                )
+
+        contexts.append(
+            "\n".join(lines)
+        )
+
+    return contexts
+
+
 
 RAG_PROMPT = ChatPromptTemplate.from_messages(
     [
@@ -249,6 +300,7 @@ def answer_question(
     )
 
     context = build_context(results)
+    retrieved_contexts = build_context_list(results)
 
     llm = create_llm()
 
@@ -272,6 +324,7 @@ def answer_question(
         "question": question,
         "answer": response.content,
         "events": events,
+        "retrieved_contexts": retrieved_contexts,
     }
 
 
@@ -293,8 +346,14 @@ if __name__ == "__main__":
 
     for event in result["events"]:
         print(
-            f"- {event.get('title')} | "
+            f"\n- {event.get('title')} | "
             f"{event.get('dateRange')} | "
             f"{event.get('location_name')} | "
             f"score={event.get('score')}"
         )
+
+    print("\nCONTEXTES RAGAS\n")
+
+    for context in result["retrieved_contexts"]:
+        print(context)
+        print("\n---\n")
