@@ -6,7 +6,10 @@ from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
 
 from ragas.llms import LangchainLLMWrapper
-from ragas.metrics import Faithfulness
+from ragas.metrics import (
+    Faithfulness,
+    LLMContextPrecisionWithoutReference,
+)
 from ragas.dataset_schema import SingleTurnSample
 
 from src.rag.rag_chain import answer_question
@@ -56,6 +59,28 @@ async def evaluate_faithfulness(result: dict):
     return score
 
 
+async def evaluate_context_precision(result: dict):
+    """Évalue la pertinence des contextes récupérés par FAISS."""
+
+    evaluator_llm = create_evaluator_llm()
+
+    metric = LLMContextPrecisionWithoutReference(
+        llm=evaluator_llm
+    )
+
+    sample = SingleTurnSample(
+        user_input=result["question"],
+        response=result["answer"],
+        retrieved_contexts=result["retrieved_contexts"],
+    )
+
+    score = await metric.single_turn_ascore(
+        sample
+    )
+
+    return score
+
+
 async def main():
     """Teste le RAG et calcule le score de faithfulness."""
 
@@ -78,9 +103,18 @@ async def main():
         result
     )
 
+    context_precision_result = await evaluate_context_precision(
+    result
+)
+
     print("\nFAITHFULNESS")
     print(
         faithfulness_result
+    )
+
+    print("\nCONTEXT PRECISION")
+    print(
+        context_precision_result
     )
 
 if __name__ == "__main__":
