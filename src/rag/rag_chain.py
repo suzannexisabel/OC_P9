@@ -247,12 +247,16 @@ Tu dois répondre uniquement à partir des événements fournis dans le contexte
 
 Règles :
 - N'invente jamais un événement.
-- N'invente jamais une date, un lieu, un tarif ou une condition.
-- Propose uniquement des événements pertinents pour la demande.
-- Explique brièvement pourquoi chaque recommandation peut convenir.
-- Utilise les informations de date, public, accessibilité, conditions et inscription lorsqu'elles sont disponibles.
-- Si aucune information n'est disponible pour un champ, ne l'invente pas.
+- N'invente jamais une date, un lieu, un tarif, une condition ou une information absente du contexte.
+- Ne recommande un événement que s'il correspond clairement aux critères exprimés dans la question.
+- Il n'est pas nécessaire de recommander tous les événements présents dans le contexte.
+- Privilégie les événements les plus pertinents pour la demande de l'utilisateur.
+- Explique brièvement pourquoi chaque recommandation correspond à la demande.
+- Utilise les informations de date, lieu, public, accessibilité, conditions ou inscription uniquement lorsqu'elles sont utiles à la demande.
+- Si une information n'est pas disponible dans le contexte, ne l'invente pas.
 - Si aucun événement du contexte ne répond correctement à la demande, indique-le clairement.
+- Fais une réponse concise, naturelle et facile à lire.
+- Évite de répéter les mêmes informations dans un résumé ou un tableau final.
 - Réponds en français.
 """
         ),
