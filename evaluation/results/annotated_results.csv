@@ -1,0 +1,81 @@
+question,expected_answer,generated_answer,human_label
+Quels concerts de jazz sont prévus en 2026 ?,"['La réponse propose uniquement des événements explicitement liés au jazz.', 'Les événements proposés correspondent à des concerts ou à une programmation musicale pertinente.', 'Les dates et lieux mentionnés doivent provenir des données sources.', 'La réponse ne doit pas inventer de genre musical, de date ou de lieu.']","Voici les concerts de jazz prévus en 2026 à Toulouse :
+
+1. **Latino jazz**
+   - **Date** : Vendredi 23 janvier 2026 à 20h
+   - **Lieu** : Auditorium Saint-Pierre des Cuisines
+   - **Pourquoi ?** Ce concert propose un mélange de jazz et de rythmes latins avec des musiciens renommés.
+
+2. **Nirina RAKOTOMAVO (Festival Rio Loco)**
+   - **Date** : Jeudi 11 juin 2026 à 17h45
+   - **Lieu** : Prairie des Filtres (Rio Loco)
+   - **Pourquoi ?** Nirina Rakotomavo est une pianiste-chanteuse de jazz, et ce concert met en avant son nouvel album *Paris Réunion*.
+
+3. **SORTIE DE RÉSIDENCE : ANDY EMLER • Freedom for three days**
+   - **Date** : Lundi 13 avril 2026 à 19h
+   - **Lieu** : Église du Gesù
+   - **Pourquoi ?** Andy Emler est une figure majeure du jazz français, et ce concert mêlera écriture et improvisation dans un style éclectique.
+
+---
+*Aucun autre événement du contexte ne correspond à un concert de jazz.*",correcte
+Quelles activités créatives sont prévues en Novembre 2026 ?,"['La réponse propose uniquement des événements ayant lieu en novembre 2025.', 'Les événements proposés comportent une activité créative, artistique ou participative identifiable dans les données.', 'La réponse ne doit pas proposer un événement situé en dehors de la période demandée.', ""La réponse n'invente ni activité, ni date, ni condition.""]","Voici les activités créatives prévues en **novembre 2026** à Toulouse, extraites des événements disponibles :
+
+### **1. Les Rencontres du Papier et du Livre**
+📅 **15 et 16 novembre 2025** *(prochaine édition en 2026 non confirmée)*
+📍 **Centre Culturel Espace Job** (105 Route de Blagnac)
+🎨 **Ateliers créatifs en papier** pour tous les âges :
+- Gravure d’un ex-libris (dès 4 ans)
+- Création d’un livre artisanal (dès 6 ans)
+- Création d’un marque-page (dès 6 ans)
+- Aquarium en carton (dès 8 ans)
+- Diorama en pop-up (6-14 ans)
+- Calligraphie (dès 8 ans)
+- Papier mâché (dès 8 ans)
+💰 **Gratuit** | 🔗 [Site du Collectif Job](https://www.collectif-job.com/les-rencontres-du-papier-et-du-livre/)
+
+---
+### **2. Paliss’Art (3e édition)**
+📅 **Du 15 septembre 2025 au 18 janvier 2026** *(exposition permanente)*
+📍 **Place Refuznik** (1 rue Maury)
+🎨 **Exposition d’art urbain** sur les palissades du chantier de la ligne C du métro, avec des œuvres renouvelées tous les 3 mois.
+💰 **Gratuit** | 🔗 [Plus d’infos](https://www.tisseo.fr/actualites/palissart)
+
+---
+### **Aucun événement créatif en novembre 2026 n’est mentionné dans les données disponibles.**
+Les événements listés concernent **novembre 2025** ou d’autres périodes. Si vous cherchez des ateliers ou expositions pour novembre 2026, je vous conseille de consulter les sites des organisateurs à l’approche de cette date.",correcte
+Quelle est la prochaine date de Symphony on Titan ?,"[""La réponse concerne bien l'événement Symphony on Titan."", 'La date indiquée correspond à la prochaine date disponible dans les données.', 'La réponse reste concise et répond directement à la question.', 'Aucune date absente des données ne doit être inventée.']","La prochaine date pour **Symphony on Titan** est le **mardi 26 janvier 2027 à 21h00** à l'**Auditorium Saint-Pierre-des-Cuisines** (12 Pl. Saint-Pierre, 31000 Toulouse).",correcte
+Quelles activités sont adaptées aux enfants de 3 à 6 ans ?,"['La réponse propose au moins une activité dont le public inclut les enfants de 3 à 6 ans.', ""Les activités proposées doivent être compatibles avec la tranche d'âge demandée."", 'Les informations pratiques mentionnées doivent correspondre aux données sources.', ""Une activité réservée à une tranche d'âge incompatible ne doit pas être recommandée.""]","Voici les activités adaptées aux enfants de 3 à 6 ans parmi les événements proposés :
+
+### **Toulouse Plages (13, 18, 20 ou 23 août 2026/2025)**
+**Pourquoi ?**
+- **Espace Pitchouns** : Plateforme ludique, parcours moteurs en mousse et activités collectives encadrées par des animateurs.
+- **Ludoplage** : Jeux adaptés aux tout-petits, ouvert de 10h à 21h (fermeture entre 13h et 14h).
+- **Activités gratuites et en accès libre** (pas de réservation nécessaire).
+
+*Conseil* : Privilégiez les créneaux en matinée (10h-12h) pour éviter la foule.",correcte
+Comment puis-je réserver des billets pour La Mystérieuse Évasion ?,"[""La réponse concerne bien l'événement La Mystérieuse Évasion."", 'La méthode de réservation indiquée correspond aux informations de registration ou de billetterie présentes dans les données.', ""Le lien ou les coordonnées de réservation doivent être repris correctement lorsqu'ils sont disponibles."", 'La réponse ne doit pas inventer de procédure de réservation.']","D'après les informations disponibles, **aucun événement nommé ""La Mystérieuse Évasion""** n'est mentionné dans le contexte fourni.
+
+Si vous cherchez un spectacle ou une activité spécifique, vérifiez l'orthographe ou précisez votre demande pour que je puisse vous aider au mieux.",incorrecte
+Quelles expositions sont accessibles aux personnes à mobilité réduite ?,"['La réponse propose uniquement des événements correspondant à des expositions.', ""L'accessibilité aux personnes à mobilité réduite doit être explicitement indiquée dans les données."", ""La réponse ne doit pas supposer qu'un lieu est accessible si cette information n'est pas présente."", 'Les informations pratiques fournies doivent correspondre aux données sources.']","Voici les expositions accessibles aux personnes à mobilité réduite dans le contexte fourni :
+
+1. **Exposition artistique ""Art, Handicap, Altérité""**
+   - **Pourquoi ?** L'accessibilité est explicitement mentionnée : *""Accessibilité : handicap moteur""*.
+   - **Dates** : Du 11 au 28 février 2026.
+   - **Lieu** : Maison des associations, Toulouse.
+   - **Horaires** : Lundi-vendredi 15h-19h, samedi 15h-18h.
+
+2. **Festival ""Le Nouveau Printemps""**
+   - **Pourquoi ?** Le festival est labellisé *""Villes pour Tous""* avec des mesures d'accessibilité pour les personnes à mobilité réduite (*""Accès aux personnes à mobilité réduite sur l’ensemble des sites du festival""*).
+   - **Expositions incluses** : Plusieurs sites (Médiathèque José Cabanis, Lieu Commun, etc.).
+   - **Dates** : Du 27 mai au 28 juin 2026.
+   - **Inscription** : Contact possible via *mediation@lenouveauprintemps.com* ou *06 08 43 02 89*.
+
+3. **Visites flash ""Être ou paraître Gaulois"" (Musée Saint-Raymond)**
+   - **Pourquoi ?** Accessibilité moteur confirmée (*""Accessibilité : handicap moteur""*).
+   - **Dates** : 27 septembre 2026 (11h30) et 30 avril 2026 (11h30).
+   - **Lieu** : Musée Saint-Raymond, Toulouse.
+   - **Conditions** : Inclus dans le droit d'entrée à l'exposition *""Gaulois mais Romains !""*, sans réservation.
+
+---
+*Aucune information d'accessibilité n'est disponible pour l'exposition ""Afterwork avec Liloë"".*",correcte
+Il y a une exposition à Paris en Décembre,"['La réponse doit reconnaître que la base de connaissances concerne les événements de Toulouse.', 'La réponse ne doit pas présenter un événement toulousain comme étant situé à Paris.', 'La réponse ne doit pas inventer une exposition à Paris.', ""La réponse doit indiquer clairement qu'elle ne dispose pas des données nécessaires pour répondre à cette demande.""]",Aucune exposition à Paris en décembre n'est disponible dans les événements proposés. Les expositions listées se déroulent toutes à Toulouse ou en Occitanie.,correcte

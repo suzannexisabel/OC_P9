@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Quels concerts de jazz sont prévus en 2026 ?",
+    "expected_answer": [
+      "La réponse propose uniquement des événements explicitement liés au jazz.",
+      "Les événements proposés correspondent à des concerts ou à une programmation musicale pertinente.",
+      "Les dates et lieux mentionnés doivent provenir des données sources.",
+      "La réponse ne doit pas inventer de genre musical, de date ou de lieu."
+    ]
+  },
+  {
+    "question": "Quelles activités créatives sont prévues en Novembre 2026 ?",
+    "expected_answer": [
+      "La réponse propose uniquement des événements ayant lieu en novembre 2025.",
+      "Les événements proposés comportent une activité créative, artistique ou participative identifiable dans les données.",
+      "La réponse ne doit pas proposer un événement situé en dehors de la période demandée.",
+      "La réponse n'invente ni activité, ni date, ni condition."
+    ]
+  },
+  {
+    "question": "Quelle est la prochaine date de Symphony on Titan ?",
+    "expected_answer": [
+      "La réponse concerne bien l'événement Symphony on Titan.",
+      "La date indiquée correspond à la prochaine date disponible dans les données.",
+      "La réponse reste concise et répond directement à la question.",
+      "Aucune date absente des données ne doit être inventée."
+    ]
+  },
+  {
+    "question": "Quelles activités sont adaptées aux enfants de 3 à 6 ans ?",
+    "expected_answer": [
+      "La réponse propose au moins une activité dont le public inclut les enfants de 3 à 6 ans.",
+      "Les activités proposées doivent être compatibles avec la tranche d'âge demandée.",
+      "Les informations pratiques mentionnées doivent correspondre aux données sources.",
+      "Une activité réservée à une tranche d'âge incompatible ne doit pas être recommandée."
+    ]
+  },
+  {
+    "question": "Comment puis-je réserver des billets pour La Mystérieuse Évasion ?",
+    "expected_answer": [
+      "La réponse concerne bien l'événement La Mystérieuse Évasion.",
+      "La méthode de réservation indiquée correspond aux informations de registration ou de billetterie présentes dans les données.",
+      "Le lien ou les coordonnées de réservation doivent être repris correctement lorsqu'ils sont disponibles.",
+      "La réponse ne doit pas inventer de procédure de réservation."
+    ]
+  },
+  {
+    "question": "Quelles expositions sont accessibles aux personnes à mobilité réduite ?",
+    "expected_answer": [
+      "La réponse propose uniquement des événements correspondant à des expositions.",
+      "L'accessibilité aux personnes à mobilité réduite doit être explicitement indiquée dans les données.",
+      "La réponse ne doit pas supposer qu'un lieu est accessible si cette information n'est pas présente.",
+      "Les informations pratiques fournies doivent correspondre aux données sources."
+    ]
+  },
+  {
+    "question": "Il y a une exposition à Paris en Décembre",
+    "expected_answer": [
+      "La réponse doit reconnaître que la base de connaissances concerne les événements de Toulouse.",
+      "La réponse ne doit pas présenter un événement toulousain comme étant situé à Paris.",
+      "La réponse ne doit pas inventer une exposition à Paris.",
+      "La réponse doit indiquer clairement qu'elle ne dispose pas des données nécessaires pour répondre à cette demande."
+    ]
+  }
+]
