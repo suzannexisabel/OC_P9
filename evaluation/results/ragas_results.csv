@@ -1,129 +1,112 @@
 question,answer,faithfulness,context_precision
-Tu peux me proposer des activités créatives en septembre 2025 ?,"Voici une activité créative en septembre 2025 à Toulouse :
+Quels concerts de jazz sont prévus en 2026 ?,"Voici les concerts de jazz prévus en 2026 à Toulouse :
 
-**La Mêlée Numérique 2025 au Quai des Savoirs**
-📅 **Du 22 au 27 septembre 2025** (9h-18h)
-📍 **Quai des Savoirs, Toulouse**
-🎨 **Pourquoi ?** Ce festival propose des ateliers, démos et rencontres autour de la création numérique, de l'IA et de l'innovation. Plusieurs sessions sont accessibles à tous, avec une programmation variée pour explorer des outils créatifs et interactifs.
+1. **Latino jazz**
+   - **Date** : Vendredi 23 janvier 2026 à 20h
+   - **Lieu** : Auditorium Saint-Pierre des Cuisines
+   - **Pourquoi ?** : Concert de jazz avec un ensemble de saxophones et des invités prestigieux (saxophone, piano, percussions, batterie).
+   - **Tarif** : Gratuit sur réservation.
 
-🔗 **Inscription obligatoire** : [meleenumerique.com](https://www.meleenumerique.com/)
-💡 **Gratuit** pour toutes les activités en présentiel.
+2. **Nirina RAKOTOMAVO – Festival Rio Loco**
+   - **Date** : Jeudi 11 juin 2026 à 17h45
+   - **Lieu** : Prairie des Filtres (Rio Loco)
+   - **Pourquoi ?** : Concert de jazz vocal et piano par une pianiste-chanteuse de jazz, avec un répertoire mêlant Paris et La Réunion.
+   - **Tarif** : Réservation via [billetterie.rio-loco.org](https://billetterie.rio-loco.org/).
 
-*Aucune autre activité créative ne correspond à votre demande dans les événements disponibles.*",0.9166666666666666,0.49999999995
-Je cherche une activité pour enfants à Toulouse.,"Voici deux activités adaptées pour les enfants à Toulouse :
+3. **Andy Emler – Freedom for three days**
+   - **Date** : Lundi 13 avril 2026 à 19h
+   - **Lieu** : Église du Gesù
+   - **Pourquoi ?** : Concert de jazz contemporain avec improvisation, mêlant influences rock, jazz et classique.
+   - **Tarif** : Gratuit.
 
-1. **""LES « SUPER-HEROS DES ARCHIVES » - Activités enfants""**
-   **Pourquoi ?** Ateliers ludiques et gratuits spécialement conçus pour les 3-12 ans (memory, jeu de piste, etc.) aux Archives départementales. Accessible en famille le week-end des 19 et 20 septembre.
+4. **12 Heures du Gesù**
+   - **Date** : Samedi 23 mai 2026 de 12h à minuit
+   - **Lieu** : Église du Gesù
+   - **Pourquoi ?** : Plusieurs artistes de jazz sont programmés dans cette journée de concerts éclectiques, comme *A bout de souffle* (baroque vocal et instrumental) ou *Un Pavé dans le jazz*.
+   - **Tarif** : 5 € / gratuit pour les -12 ans (vente sur place uniquement).",1.0,0.3333333333
+Quelles activités créatives sont prévues en Novembre 2026 ?,"Voici les activités créatives prévues en **novembre 2026** à Toulouse, extraites des événements disponibles :
 
-2. **""Peuples des villes""**
-   **Pourquoi ?** Visite interactive pour les 3-6 ans au Muséum de Toulouse, où un oiseau guide les enfants dans une aventure urbaine. Inclus dans le billet d'entrée, du 21 juillet au 27 septembre (sauf lundis).
+### **1. Les Rencontres du Papier et du Livre**
+📅 **15 et 16 novembre 2025** *(proche de novembre 2026)*
+📍 **Centre Culturel Espace Job** (105 Route de Blagnac)
+🎨 **Ateliers créatifs en papier** pour tous les âges :
+- Gravure d’un ex-libris (dès 4 ans)
+- Création d’un livre artisanal (dès 6 ans)
+- Création d’un marque-page (dès 6 ans)
+- Aquarium en carton (dès 8 ans)
+- Diorama en pop-up (6-14 ans)
+- Calligraphie (dès 8 ans)
+- Papier mâché (dès 8 ans)
+💰 **Gratuit et en accès libre**
 
-*Conseil :* Pour une activité gratuite et en extérieur, privilégiez les **Super-Héros des Archives**. Pour une visite en intérieur avec un côté pédagogique, choisissez **Peuples des villes**.",1.0,0.99999999995
-Je cherche un événement gratuit.,"Voici les événements **gratuits** qui pourraient t'intéresser à Toulouse :
-
-### **1. Made in Asia** (11–19 avril)
-- **Pourquoi ?** Plusieurs activités sont gratuites :
-  - **Concerts** : ""Pipa, un son millénaire"" (16/04, 12h30), ""Les voix des steppes"" (18/04, 20h30).
-  - **Expositions** : ""Entre steppe et encre : Mongolie"" (Espace Asia, 14/04–29/05).
-  - **Ateliers** : Certains sont gratuits (ex. : festival de la culture sinophone le 19/04 à la salle Saint-Michel).
-  - **Projections** : Certaines séances sont gratuites (ex. : ""Voyage en Diphonie"" le 15/04 à l’Espace Diversités Laïcité).
-
-### **2. Aout au MdRD** (5 et 22 août)
-- **Pourquoi ?** Plusieurs activités sont gratuites :
-  - **Visite guidée** : ""Survivre à Auschwitz"" (5/08 et 27/08, 15h).
-  - **Atelier familial** : ""Codes et espionnage"" (5/08, 15h, sur réservation).
-  - **Festival 31 Notes d'été** (22/08) :
-    - **Circuit urbain** : ""Toulouse résistante, Toulouse libérée"" (10h, gratuit sur réservation).
-    - **Concert** : ""Bulldog"" (19h, entrée libre).
-    - **Spectacle** : ""Doléances : Entendez-nous !"" (21h30, entrée libre).
-
-### **3. [Semaine des Cultures Urbaines] BLOCK PARTY HIP-HOP** (31 mai, 14h–19h)
-- **Pourquoi ?** **Accès gratuit** à la plupart des activités :
-  - **Ateliers** : Custom, collage, cabane sensorielle, DJing, skate, gravure (accès libre).
-  - **Spectacles** : Shows hip-hop, open mic, jam (gratuit).
-  - **Randos roller** : Départ à 15h (gratuit, adapté aux débutants).
-
-### **4. Cuba Hoy ! Terres de rencontres** (30/01–8/02)
-- **Pourquoi ?** Plusieurs événements gratuits :
-  - **Apéros-concerts** : Batucada Blocodaqui (31/01, 19h), Nora Mekemeza (5/02, 19h).
-  - **Bal caribéen** : Juanita Bananas & Ibra (5/02, 22h).
-  - **Ateliers** : Restitution de percussions (1/02, 15h15), initiation à la salsa (1/02, 16h45).
-  - **Concerts** : Participation libre à Mambo Bidon (7/02, 19h).
+*Pourquoi ?* Ces ateliers permettent de créer des objets artistiques en papier, en lien avec le livre et l’édition.
 
 ---
-**Conseil** : Vérifie les horaires et lieux précis sur les sites des festivals, car certains événements nécessitent une réservation (ex. : ateliers au MdRD ou à Cuba Hoy).",0.7872340425531915,0.8041666666465626
-Je cherche un événement accessible aux personnes à mobilité réduite.,"Voici les événements **accessibles aux personnes à mobilité réduite** dans le contexte fourni :
 
-1. **Mécanik Paradize**
-   - **Pourquoi ?** Le festival est labellisé ""Villes pour tous"" et **tout le site est accessible**, avec des places de parking PMR réservées sur présentation d’un justificatif.
-   - **Dates** : 2–5 octobre 2025
-   - **Lieu** : Halle de la Machine, 3 Avenue de l'Aérodrome de Montaudran
-   - **Tarifs** : Soirées (2–4 oct.) : 43,93€–52,70€ / Journée du 5 oct. : gratuit
+### **2. Paliss’Art – 3e édition**
+📅 **Du 15 septembre 2025 au 18 janvier 2026** *(inclut novembre 2025)*
+📍 **Place Refuznik** (1 rue Maury)
+🎨 **Exposition d’art urbain** sur des palissades de chantier, avec des œuvres renouvelées tous les 3 mois.
+💰 **Gratuit et en accès libre**
 
-2. **Dalí s'invite à Toulouse**
-   - **Pourquoi ?** L’exposition est **accessible aux personnes à mobilité réduite** (mentionné dans les détails).
-   - **Dates** : 5 décembre 2025 – 8 février 2026
-   - **Lieu** : Hôtel Albert 1er, 5 rue John Fitzgerald Kennedy
-   - **Tarifs** : Gratuit pour les -7 ans / 8€ (7–12 ans) / 12€ (étudiants/groupes) / 15€ (plein tarif)
-
-*Aucun autre événement du contexte ne mentionne explicitement une accessibilité PMR.*",0.8181818181818182,0.99999999995
-Je cherche un concert de jazz.,"Voici les concerts de jazz à Toulouse qui correspondent à ta recherche :
-
-1. **""Latino jazz""** (23 janvier 2026, 20h)
-   - **Pourquoi ?** Concert de jazz avec un Big Band et des invités prestigieux (saxophone, piano, percussions).
-   - **Lieu** : Auditorium Saint-Pierre des Cuisines (12 place Saint-Pierre).
-   - **Gratuit sur réservation** : [Lien](https://conservatoire.toulouse.fr/latino-jazz/).
-
-2. **""La Pause Musicale""** (plusieurs dates jusqu’au 30 avril 2026, 12h30)
-   - **Pourquoi ?** Plusieurs concerts gratuits incluant du jazz (ex. : *Dju* le 19 février, *Benjamin Bobenrieth Trio* le 5 mars).
-   - **Lieu** : Salle du Sénéchal (17 rue de Rémusat).
-   - **Entrée libre** dans la limite des places.
-
-3. **""Big Band du Conservatoire""** (17 mars 2026, 20h)
-   - **Pourquoi ?** Concert de jazz avec un big band dirigé par José Fillatreau.
-   - **Lieu** : Auditorium Saint-Pierre des Cuisines.
-   - **Gratuit sur réservation** : [Lien](https://billetterie.festik.net/crrtoulouse/).
-
-4. **""Blaser Courtois Chevillon""** (16 octobre 2025, 21h)
-   - **Pourquoi ?** Trio de jazz intimiste avec Samuel Blaser (trombone), Vincent Courtois (violoncelle) et Bruno Chevillon (contrebasse).
-   - **Lieu** : Le Taquin (23 Rue des Amidonniers).
-   - **Tarifs** : 11 € / 7 € (debout).
-
-*Conseil* : Si tu cherches un jazz plus contemporain, privilégie *Blaser Courtois Chevillon* (octobre 2025) ou *Dju* (19 février 2026). Pour un style plus classique ou big band, les autres options sont idéales.",1.0,0.9166666666361111
-Je voudrais une activité en plein air.,"Voici une activité en plein air qui correspond à ta demande :
-
-**Toulouse Plages**
-📅 **Dates disponibles** : 13 août, 28 juillet ou 31 juillet (tous les jours du 20 juillet au 23 août)
-📍 **Lieu** : Prairie des Filtres (Cours Dillon, 31300 Toulouse)
-🎯 **Pourquoi ?** C'est une activité 100% en extérieur avec des animations variées (sports, jeux, détente) en bord de Garonne. L'entrée est libre et accessible à tous.
-
-Si tu veux une date précise ou un type d'animation en particulier, fais-le-moi savoir !",0.7777777777777778,0.7555555555303703
-Je cherche une activité pour adolescents.,"Voici deux activités adaptées aux adolescents :
-
-1. **Toulouse Plages - 18 août**
-   *Pourquoi ?* Plusieurs activités sportives sont accessibles dès 12 ans (aviron, canoë-kayak, pétanque adaptée) ou dès 8 ans avec encadrement. C'est une journée gratuite et conviviale en plein air, idéale pour se défouler entre amis.
-
-2. **Teen Vidéo (28 janvier ou 8 octobre 2025)**
-   *Pourquoi ?* Séance de courts-métrages spécialement conçue pour les ados (dès 12 ans), suivie d'un échange avec un professionnel. Une activité culturelle et interactive, parfaite pour les cinéphiles.
-
-*Conseil :* Pour une activité ponctuelle, privilégiez Toulouse Plages. Pour une sortie culturelle, choisissez Teen Vidéo.",1.0,0.8874999999778125
-Je voudrais voir une exposition de photographie.,"Voici une sélection d'expositions de photographie à Toulouse qui correspondent à ta demande :
-
-1. **Exposition *The Overstory : réparer les liens, relier les récits***
-   - **Pourquoi ?** C'est une exposition **100% photographie**, présentée au **Château d'Eau** (lieu dédié à la photo), avec des artistes contemporains comme Laura Henno ou Yann Gross.
-   - **Quand ?** Du **27 mai au 29 août 2027** (horaires variables, généralement 11h-18h).
-   - **Accès** : Handicap moteur, entrée libre (pas de tarif mentionné).
-
-2. **Festival de photo MAP Toulouse**
-   - **Pourquoi ?** Un festival **gratuit** avec des expositions dans des lieux iconiques (Caserne Jacques Vion, Château d'Eau), incluant des œuvres d'artistes internationaux (ex. *PODA*, *Prix Photo Sociale*).
-   - **Quand ?** Du **11 au 27 septembre 2026**.
-   - **Accès** : Handicap moteur, entrée libre.
-
-3. **Expositions *Des maux à l'image* et *Il était encore une fois***
-   - **Pourquoi ?** Deux expositions photographiques engagées sur les violences sexistes, avec des visites commentées et des temps d'échange.
-   - **Quand ?** Du **6 au 29 novembre 2025**.
-   - **Où ?** Maison des associations (Place Guy Hersant).
-   - **Accès** : Handicap moteur, tout public.
+*Pourquoi ?* Une exposition à ciel ouvert d’art urbain, idéale pour découvrir des créations artistiques contemporaines.
 
 ---
-**Conseil** : Si tu cherches une expérience immersive et contemporaine, privilégie *The Overstory* ou le festival MAP. Pour un engagement social, les expositions de novembre sont idéales. Vérifie les horaires sur les sites officiels avant de te déplacer !",0.9583333333333334,0.9166666666361111
+*Aucune activité créative n’est explicitement prévue pour novembre 2026 dans les événements disponibles. Les événements ci-dessus sont programmés en novembre 2025, mais pourraient être reconduits ou inspirer des activités similaires en 2026.*",0.9090909090909091,0.5833333333041666
+Quelle est la prochaine date de Symphony on Titan ?,"La prochaine date de **Symphony on Titan** est le **mardi 26 janvier 2027 à 21h00** à l'**Auditorium Saint-Pierre-des-Cuisines** (12 Pl. Saint-Pierre, 31000 Toulouse).",1.0,0.9999999999
+Quelles activités sont adaptées aux enfants de 3 à 6 ans ?,"Voici les activités adaptées aux enfants de 3 à 6 ans parmi les événements proposés :
+
+### **Toulouse Plages**
+**Pourquoi ?** L'espace **Ludoplage** propose des animations spécifiques pour les enfants avec :
+- Une **plateforme ludique** et un **parcours moteur en mousse**.
+- Des **activités collectives encadrées** par des animateurs.
+- **Espace Pitchouns** dédié aux plus petits.
+
+**Dates et lieux :**
+- **13 août 2026** (9h30-21h30) – Prairie des Filtres
+- **18 août 2026** (9h30-21h30) – Prairie des Filtres
+- **20 août 2025** (9h30-21h30) – Prairie des Filtres
+- **23 août 2025** (9h30-21h30) – Prairie des Filtres
+
+**Conditions :** Entrée libre.
+
+---
+### **Stage ""À la rencontre de Castelbajac""**
+**Pourquoi ?** Ateliers ludiques et créatifs pour les **4-7 ans** (réservation obligatoire).
+
+**Dates et lieu :**
+- **24 et 26 décembre 2025** (14h-17h) – Les Abattoirs, Musée - Frac Occitanie Toulouse
+
+**Tarif :** 24 € par enfant pour les 3 après-midis.
+**Réservation :** [reservationjeunepublic@lesabattoirs.org](mailto:reservationjeunepublic@lesabattoirs.org)
+
+---
+Aucun autre événement dans la liste ne propose d'activité clairement adaptée aux 3-6 ans.",0.875,0.8041666666465626
+Comment puis-je réserver des billets pour La Mystérieuse Évasion ?,"D'après les informations disponibles, **l'événement ""La Mystérieuse Évasion"" n'est pas mentionné** dans le contexte fourni. Aucun détail sur sa réservation, son lieu ou ses dates n'est donc accessible.
+
+Si vous cherchez un spectacle ou une activité similaire à Toulouse, voici quelques alternatives gratuites **sans réservation** (billets à retirer 30 min avant) à l'**Espace Roguet** :
+- **Carnet d’Hiver #8** (11-12 décembre 2025) : spectacles de marionnettes.
+- **Théâtre pour son 31** (25-26 mars 2026) : pièces de théâtre amateur.
+- **Nos corps pirogues** (24 janvier 2026) : théâtre contemporain (à partir de 13 ans).
+
+Pour une réservation nécessitant un billet payant, la **visite technique de la Halle de la Machine** (19-23 janvier 2026) est disponible en ligne.
+
+Vérifiez l'orthographe du titre ou consultez les sources officielles de l'événement pour plus de précisions.",0.6666666666666666,0.0
+Quelles expositions sont accessibles aux personnes à mobilité réduite ?,"Voici les expositions accessibles aux personnes à mobilité réduite dans le contexte fourni :
+
+1. **Exposition artistique ""Art, Handicap, Altérité""**
+   - **Pourquoi ?** L'événement précise explicitement une accessibilité pour le **handicap moteur**.
+   - **Dates** : Du 11 au 28 février 2026.
+   - **Lieu** : Maison des associations, Toulouse.
+   - **Public** : Tous âges.
+
+2. **Visites flash ""Être ou paraître Gaulois""**
+   - **Pourquoi ?** Les deux occurrences de cette visite mentionnent une accessibilité pour le **handicap moteur**.
+   - **Dates** : 27 septembre 2026 (11h30) et 30 avril 2026 (11h30).
+   - **Lieu** : Musée Saint-Raymond, Toulouse.
+   - **Public** : À partir de 7 ans.
+   - **Conditions** : Inclus dans le droit d'entrée à l'exposition ""Gaulois mais Romains !"", sans réservation.
+
+---
+*Aucune autre exposition du contexte ne mentionne explicitement une accessibilité pour les personnes à mobilité réduite.*",0.8666666666666667,0.4166666666458333
+Il y a une exposition à Paris en Décembre,Aucune exposition à Paris en décembre n'est mentionnée dans les événements disponibles. Les expositions proposées se déroulent toutes à Toulouse.,0.5,0.99999999998

@@ -3,6 +3,7 @@ import os
 import asyncio
 from pathlib import Path
 
+import json
 import pandas as pd
 from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
@@ -22,16 +23,25 @@ RESULTS_DIR = Path("evaluation/results")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 RESULTS_PATH = (RESULTS_DIR / "ragas_results.csv")
 
-QUESTIONS = [
-    "Tu peux me proposer des activités créatives en septembre 2025 ?",
-    "Je cherche une activité pour enfants à Toulouse.",
-    "Je cherche un événement gratuit.",
-    "Je cherche un événement accessible aux personnes à mobilité réduite.",
-    "Je cherche un concert de jazz.",
-    "Je voudrais une activité en plein air.",
-    "Je cherche une activité pour adolescents.",
-    "Je voudrais voir une exposition de photographie.",
-]
+TEST_CASES_PATH = Path("evaluation/test_cases.json")
+
+def load_questions():
+    """Charge les questions du jeu de test annoté."""
+
+    with open(
+        TEST_CASES_PATH,
+        "r",
+        encoding="utf-8",
+    ) as file:
+        test_cases = json.load(file)
+
+    return [
+        test_case["question"]
+        for test_case in test_cases
+    ]
+
+
+QUESTIONS = load_questions()
 
 def create_evaluator_llm():
     """Crée le LLM utilisé par Ragas pour évaluer les réponses."""
