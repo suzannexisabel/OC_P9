@@ -25,7 +25,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="Puls-Events RAG API",
     description=(
-        "API de recommandation d'événements culturels "
+        "API de recommandation d'événements et d'activités "
         "à Toulouse utilisant un système RAG."
     ),
     version="1.0.0",
@@ -60,7 +60,10 @@ def root():
     }
 
 
-@app.get("/health")
+@app.get(
+    "/health",
+    summary="Vérifier l'état de l'API",
+)
 def health():
     """Vérifie l'état de l'API."""
 
@@ -68,7 +71,10 @@ def health():
         "status": "ok"
     }
 
-@app.get("/metadata")
+@app.get(
+    "/metadata",
+    summary="Consulter les informations du système RAG",
+)
 def metadata():
     """Retourne les informations principales du système RAG."""
 
@@ -81,7 +87,10 @@ def metadata():
     }
 
 
-@app.post("/ask")
+@app.post(
+    "/ask",
+    summary="Poser une question au système RAG",
+)
 def ask(request: AskRequest):
     """
     Pose une question au système RAG.
@@ -113,7 +122,10 @@ def ask(request: AskRequest):
             detail="Erreur lors de la génération de la réponse.",
         ) from exc
 
-@app.post("/rebuild")
+@app.post(
+    "/rebuild",
+    summary="Reconstruire la base vectorielle",
+)
 def rebuild():
     """
     Reconstruit les données, les embeddings et l'index FAISS.
