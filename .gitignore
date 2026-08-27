@@ -20,12 +20,11 @@ env/
 # VS Code
 .vscode/
 
-# FAISS indexes
-*.faiss
+# indexes
 *.index
 
 # Generated data
-*.parquet
+events_clean.parquet
 *.npy
 
 # Logs
