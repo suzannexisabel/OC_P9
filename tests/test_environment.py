@@ -1,12 +1,17 @@
 import faiss
 
-from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+from fastapi import FastAPI
+from langchain_mistralai import ChatMistralAI
+from langchain_core.prompts import ChatPromptTemplate
 from mistralai.client import Mistral
+
+from ragas.llms import LangchainLLMWrapper
 
 
 def test_imports():
     assert faiss is not None
-    assert FAISS is not None
-    assert HuggingFaceEmbeddings is not None
+    assert FastAPI is not None
+    assert ChatMistralAI is not None
+    assert ChatPromptTemplate is not None
     assert Mistral is not None
+    assert LangchainLLMWrapper is not None

@@ -8,8 +8,13 @@ from api.api import app
 
 
 @pytest.fixture
-def client():
-    """Crée un client de test avec le lifespan FastAPI."""
+def client(monkeypatch):
+    """Crée un client de test sans charger réellement FAISS."""
+
+    monkeypatch.setattr(
+        "api.api.load_retrieval_data",
+        lambda: None,
+    )
 
     with TestClient(app) as test_client:
         yield test_client
@@ -22,7 +27,30 @@ def test_health(client):
     assert response.json()["status"] == "ok"
 
 
-def test_ask(client):
+def test_ask(client, monkeypatch):
+    """Teste /ask sans appeler réellement Mistral."""
+
+    def fake_answer_question(question, *, k=5):
+        return {
+            "question": question,
+            "answer": "Voici une activité adaptée aux enfants.",
+            "events": [
+                {
+                    "title": "Atelier enfants",
+                    "dateRange": "Septembre 2026",
+                    "location_name": "Toulouse",
+                }
+            ],
+            "retrieved_contexts": [
+                "Titre : Atelier enfants"
+            ],
+        }
+
+    monkeypatch.setattr(
+        "api.api.answer_question",
+        fake_answer_question,
+    )
+
     payload = {
         "question": "Je cherche une activité pour enfants",
         "k": 5,
