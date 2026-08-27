@@ -23,6 +23,10 @@ env/
 # indexes
 *.index
 
+# Backup data
+*_backup.faiss
+*_backup.parquet
+
 # Generated data
 events_clean.parquet
 *.npy
