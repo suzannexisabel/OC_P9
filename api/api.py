@@ -68,6 +68,18 @@ def health():
         "status": "ok"
     }
 
+@app.get("/metadata")
+def metadata():
+    """Retourne les informations principales du système RAG."""
+
+    return {
+        "llm": "mistral-small-latest",
+        "embedding_model": "mistral-embed",
+        "vector_store": "FAISS",
+        "scope": "Événements et activités à Toulouse",
+        "default_k": 5,
+    }
+
 
 @app.post("/ask")
 def ask(request: AskRequest):
