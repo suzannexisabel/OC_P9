@@ -1,3 +1,12 @@
+# NOTE:
+# Ce workflow est conservé pour documenter l'intégration de l'évaluation
+# Ragas dans GitHub Actions.
+# Il n'est actuellement pas fonctionnel dans l'environnement GitHub Actions
+# en raison d'une incompatibilité de Ragas 0.4.3 avec certaines dépendances
+# LangChain / VertexAI.
+# Cette correction a seulement été réalisé localement et l'évaluation Ragas 
+# doit etre exécuté localement avec evaluation/evaluate_rag.py.
+
 name: RAG Evaluation
 
 on:
