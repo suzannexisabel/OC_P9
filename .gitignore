@@ -31,5 +31,8 @@ env/
 # Logs
 *.log
 
+# Test
+.coverage
+
 # Notebook test
 test_clean.ipynb
