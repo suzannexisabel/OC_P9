@@ -11,7 +11,7 @@
   {
     "question": "Quelles activités créatives sont prévues en Novembre 2026 ?",
     "expected_answer": [
-      "La réponse propose uniquement des événements ayant lieu en novembre 2025.",
+      "La réponse propose uniquement des événements ayant lieu en novembre 2026.",
       "Les événements proposés comportent une activité créative, artistique ou participative identifiable dans les données.",
       "La réponse ne doit pas proposer un événement situé en dehors de la période demandée.",
       "La réponse n'invente ni activité, ni date, ni condition."
@@ -36,9 +36,9 @@
     ]
   },
   {
-    "question": "Comment puis-je réserver des billets pour La Mystérieuse Évasion ?",
+    "question": "Comment puis-je réserver des billets pour Mozart par Les Musiciens du Louvre ?",
     "expected_answer": [
-      "La réponse concerne bien l'événement La Mystérieuse Évasion.",
+      "La réponse concerne bien l'événement Mozart par Les Musiciens du Louvre.",
       "La méthode de réservation indiquée correspond aux informations de registration ou de billetterie présentes dans les données.",
       "Le lien ou les coordonnées de réservation doivent être repris correctement lorsqu'ils sont disponibles.",
       "La réponse ne doit pas inventer de procédure de réservation."

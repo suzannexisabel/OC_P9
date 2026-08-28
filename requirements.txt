@@ -31,6 +31,9 @@ Pandas==3.0.3
 numpy==2.4.6
 pyarrow==23.0.1
 
+# Plots
+matplotlib==3.11.1
+
 # Api
 fastapi==0.141.1
 uvicorn==0.52.4
